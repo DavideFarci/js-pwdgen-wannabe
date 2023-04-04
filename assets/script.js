@@ -7,9 +7,10 @@
 
 const userName = prompt("Qual'è il tuo nome?");
 
-const userLastname = prompt("Qual'è il tuo cognome?")
+const userLastname = prompt("Qual'è il tuo cognome?");
 
-const userColor = prompt("Qual'è il tuo colore preferito?")
+const userColor = prompt("Qual'è il tuo colore preferito?");
 
 const eleSpan = document.getElementById("pwd")
-eleSpan.innerHTML = userName + userLastname + userColor + 23
+eleSpan.innerHTML = userName + userLastname + userColor + 23;
+
